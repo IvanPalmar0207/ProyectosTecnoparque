@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.mainSection{
+    padding: 70px;
+    background-color: rgb(213, 213, 213);
+    text-align: center;
+}
+
+.mainSection p{
+    margin-top: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: larger;
+}
+
+.containerServicesSection{
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.containerServicesSection img{
+    height: auto;
+    width: 200px;
+    margin: 15px;
+    margin-top: 0px;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.servicesSection {
+    text-align: start;
+}
+
+.servicesSection h2 {
+    text-align: center;
+}
+
+.servicesSection ul{    
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.servicesSection li{
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: justify;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: larger;
+}
+
+.containerCategoriesSection{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: rgb(213, 213, 213);
+}
+
+.containerCategoriesSection img{
+    height: auto;
+    width: 200px;
+    margin: 15px;
+    margin-top: 0px;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.categoriesSection{
+    text-align: start;
+}
+
+.categoriesSection h2 {
+    text-align: center;
+}
+
+.categoriesSection ul{    
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.categoriesSection li{
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: justify;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: larger;
+}
+
+.containerBarberShopSection{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 90px;
+}
+
+.containerBarberShopSection .barberShopSection{
+    padding: 10px;
+}
+
+.barberShopSection{
+    text-align: center;
+    margin: 40px;
+}
+
+.barberShopSection p{
+    margin-top: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: start;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: large;
+}
+
+.barberShopSection ul{    
+    margin: 20px;
+    margin-top: 40px;
+}
+
+.barberShopSection li{
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: justify;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: larger;
+}
+
+.containerBarberShopSection img{
+    height: auto;
+    width: 300px;
+    margin: 20px;
+    margin-top: 0px;
+    border-radius: 20%;
+    box-shadow: 5px 5px 5px gray;
+}
+
+.barberShopSection li{
+    margin-top: 40px;
+    font-family: "Roboto Condensed", sans-serif;
+    text-align: justify;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: large;
+}
+
+@media (max-width:900px) {
+
+    .containerServicesSection img{
+        width: 150px;
+    }
+
+    .containerCategoriesSection img{
+        width: 150px;
+    }
+
+    .containerBarberShopSection img{
+        display: none;
+    }
+
+    .barberShopSection{
+        margin: 0px;
+    }
+
+}

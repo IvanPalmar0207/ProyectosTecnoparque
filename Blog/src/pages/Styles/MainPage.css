@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.containerMP{
+    padding: 70px;   
+}
+
+.containerMP h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.containerMP h3{
+    margin-top: 40px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    text-decoration: none;
+    transition: all;
+}
+
+.containerMP h3 span{
+    color: red;
+}
+
+.containerSection p{
+    margin-top: 20px;
+    margin-bottom: 70px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: larger;
+}
+
+.containerImagesMP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerImagesMP .imageMainPage{
+    width: 50%;
+    height: auto;
+}

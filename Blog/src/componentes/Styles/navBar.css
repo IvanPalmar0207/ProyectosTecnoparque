@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    display: flexbox;
+}
+
+nav{
+    margin: 0px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+
+nav .containerIcon{
+    justify-content: center;   
+}
+
+.containerIcon .iconBlog{
+    margin: 15px;
+    margin-right: 0;
+    height: 65px;
+    width: 65px;
+}
+
+
+.containerWindow .containerOptions{
+    list-style: none;
+}
+
+.containerOptions .optionsLabel{
+    display: inline-block;  
+    margin: 10px;  
+}
+
+.optionsLabel .linkOption{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all;
+}
+
+.optionsLabel .linkOption:hover{
+    color: gray;
+    transition: all ease 0.3s;
+}
+
+.contactButton{
+    padding: 15px;
+    border-radius: 5%;
+    transition: all;
+}
+
+.contactButton:hover{
+    background-color: gray;
+    transition: ease-in 0.3s;
+}
+
+.contactButton .buttonText{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-decoration: none;    
+    transition: all;
+}
+
+.contactButton:hover .buttonText{
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+.containerIcons{
+    list-style: none;
+}
+
+.containerIcons .iconNet{
+    display: inline-block;
+}
+
+.iconNet .linkIcon{
+    color: white;
+    margin: 7px;
+    font-size: 1.1em;
+}
+
+.linkIcon:hover{
+    color: gray;
+}
