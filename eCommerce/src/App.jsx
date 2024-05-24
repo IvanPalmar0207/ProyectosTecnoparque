@@ -1,34 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+/*React-Router-Dom*/
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+/*Pages*/
+import { MainPage } from "./pages/MainPage"
+import { LoginSection } from "./pages/Login"
+import { RegisterSection } from "./pages/Register"
+import { ShopNow } from "./pages/ShopNow"
+import { ContactSection } from "./pages/ContactUs"
+import { CartSection } from "./pages/Cart"
+import { AboutUs } from "./pages/AboutUs"
+/*Components*/
+import { NavBar } from "./components/NavBar"
+import { CategoriesSection } from "./components/CategoriesSection"
+import { FooterPage } from "./components/Footer"
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <BrowserRouter>
+      <NavBar />
+      <CategoriesSection />
+      <Routes>
+        <Route path="/" element={<MainPage />}/>
+        <Route path="/Login" element={<LoginSection />}/>
+        <Route path="/Register" element={<RegisterSection />}/>
+        <Route path="/ShopNow" element={<ShopNow />}/>
+        <Route path="/Contact" element={<ContactSection />}/>
+        <Route path="/Cart" element={<CartSection />}/>
+        <Route path="/AboutUs" element={<AboutUs />}/>
+      </Routes>
+      <FooterPage />
+    </BrowserRouter>
   )
 }
 

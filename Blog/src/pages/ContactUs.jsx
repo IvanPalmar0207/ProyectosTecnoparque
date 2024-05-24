@@ -88,7 +88,7 @@ export function ContactUs(){
 
                             <br />
                         
-                            <input className="fields" type="text" placeholder="Email" required/>
+                            <input className="fields" type="email" placeholder="Email" required/>
 
                             <br />
                 

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+.containerMainCat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.containerCategories{
+    padding: 20px;
+    color: white;
+}
+
+.containerCategories ul{
+    display: inline-flex;
+    list-style: none;
+}
+
+.containerCategories li{
+    padding: 20px;
+}
+
+.containerCategories li a{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.containerCategories li:hover{
+    background-color:  rgb(198, 198, 198);
+    border-radius: 10%;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.containerCategories li:hover a{
+    color: black;
+}
+
+@media (max-width: 900px) {
+    .containerCategories ul{
+        display:block;      
+        text-align: center;  
+    }   
+    .containerCategories li{
+        margin-top: 20px;
+    }
+}

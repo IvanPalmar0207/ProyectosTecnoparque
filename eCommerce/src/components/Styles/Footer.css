@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:wght@100&display=swap');
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-decoration: none;
+    transition: all;
+}
+
+footer .containerText{
+    margin: 25px;
+}
+
+.containerText span{
+    text-decoration: underline;
+}
+
+.containerIconsFooter{
+    display: flex;
+}
+
+.containerIconsFooter .linkIconFooter{
+    font-size: 30px;
+    color: white;
+    transition: all;
+    margin: 10px;
+}
+
+.linkIconFooter:hover{
+    color: gray;
+    transition: all ease 0.3s;
+}
+
+@media (max-width:900px) {
+    .containerIconsFooter{
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,100 @@
+.mainSection{
+    padding: 50px;
+}
+
+.mainSection .mainSectionTitle{
+    text-align: center;
+}
+
+.containerImageRelease{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.containerImageRelease .imageRelease{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.containerRules{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ruleItem{
+    width: 250px;
+    margin: 50px;
+    background-color:  rgb(0, 182, 199);
+    border-radius: 20px;
+}
+
+.containerRules .imageRule{
+    font-size: 100px;
+    margin-top: 30px;
+    color: white;
+}
+
+.ruleItem h2{
+    margin: 30px;
+    color: white;
+}
+
+.containerPerson .titleCategoriesPerson{
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.containerPersons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerPersons .personClass{
+    margin: 30px;
+}
+
+.containerPersons img{
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    opacity: 0.9;
+}
+
+.containerPersons img:hover{
+    opacity: 1;
+}
+
+.containerPersons h2{
+    margin-top: 30px;
+    text-align: center;
+}
+
+@media (max-width:1000px) {
+    .containerImageRelease .imageRelease{
+        height: 350px;
+    }
+    
+    .containerRules{
+        flex-direction: column;
+    }
+
+    .ruleItem{
+        width: auto;
+        padding: 30px;
+        margin: 20px;
+    }
+
+    .containerPersons{
+        flex-direction: column;
+    }
+
+    .containerPersons img{
+        width: 100%;
+    }
+
+}    

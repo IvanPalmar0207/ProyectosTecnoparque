@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    display: flexbox;
+}
+
+nav{
+    margin: 0px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 0;
+    background-color: rgb(255, 255, 255);
+}
+
+
+nav .containerName{
+   font-family: "Roboto Condensed", sans-serif;
+   font-optical-sizing: auto;
+   text-align: center;
+   font-style: normal;
+   font-size: larger;
+   font-weight: bold;
+   color: black;
+   border-radius: 10%;
+   padding: 10px;
+   background-color: rgb(215, 215, 215);
+   transition: all;
+}
+
+nav .containerName:hover{
+    background-color: black;
+    color: white;
+    transition: all ease 0.5s;
+}
+
+.containerWindow .containerOptions{
+    list-style: none;
+}
+
+.containerOptions .optionsLabel{
+    display: inline-block;  
+    margin: 10px;  
+    text-align: center;
+}
+
+.optionsLabel .linkOption{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: all;
+}
+
+.optionsLabel .linkOption:hover{
+    color: gray;
+    transition: all ease 0.3s;
+}
+
+.contactButton .buttonText{
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    text-decoration: none;    
+    transition: all;
+}
+
+.contactButton:hover .buttonText{
+    color: white;
+    transition: all ease-in-out 0.3s;
+}
+
+.containerIcons{
+    list-style: none;
+}
+
+.iconNet{
+    display: inline-flex;
+    margin: 10px;
+    background-color:  rgb(0, 182, 199);
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.iconNet .linkIcon{    
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+    font-weight: bold;
+    color: white;    
+    text-decoration: none;
+}
+
+.iconNet:hover{
+    background-color: rgb(198, 198, 198);
+    color: black;
+}
+
+.iconNet:hover .linkIcon{
+    color: black;
+}
+
+@media (max-width:900px) {
+    .containerWindow{        
+        text-align: center;
+    }
+    .iconNet{
+        margin-top: 10px;
+    }
+    .containerIcons{
+        text-align: center;
+    }
+}

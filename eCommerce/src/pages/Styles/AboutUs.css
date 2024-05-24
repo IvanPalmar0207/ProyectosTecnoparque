@@ -1,0 +1,39 @@
+.containerAboutUs{
+    padding: 60px;
+}
+
+.containerAboutUs h2{
+    text-align: center;
+}
+
+.containerAbout{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-evenly;
+}
+
+.containerAbout p{
+    margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: normal;
+    text-align: justify;
+    font-size: large;
+}
+
+.containerAbout .ImagenProduccion{
+    width: 100%;
+    height: auto;
+    border-radius: 10%;
+    box-shadow: 3px 3px rgb(157, 157, 157);
+}
+
+@media (max-width:900px) {
+    .containerAbout .ImagenProduccion{
+        display: none;
+    }
+    .containerAboutUs{
+        padding: 35px;
+    }
+}

@@ -93,3 +93,9 @@ nav .containerIcon{
 .linkIcon:hover{
     color: gray;
 }
+
+@media (max-width: 900px) {
+    .containerWindow{
+        text-align: center;
+    }
+}
