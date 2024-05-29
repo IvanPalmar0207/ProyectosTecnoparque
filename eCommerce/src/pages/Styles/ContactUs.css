@@ -9,7 +9,8 @@ h2{
 }
 
 .sectionContact{
-    padding: 70px;
+    padding: 40px;
+    padding-bottom: 50px;
     text-align: center;
 }
 
@@ -80,7 +81,7 @@ h2{
     justify-content: space-between;
     flex-direction: row;
     padding: 40px;
-    margin-left: 10px;
+    margin-left: -10px;
 }
 
 .containerButtons .buttonContact{
@@ -113,6 +114,6 @@ h2{
     }
     
     .containerButtons{
-        margin-left: 10px;
+        margin-left: -10px;
     }
 }

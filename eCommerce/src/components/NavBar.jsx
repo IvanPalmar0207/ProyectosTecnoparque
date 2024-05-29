@@ -12,16 +12,16 @@ export function NavBar(){
             <div className="containerWindow">
                 <ul className="containerOptions">
                     <li className="optionsLabel">
-                        <Link className="linkOption" to='/'>Home</Link>    
+                        <Link className="linkOption" to = '/'>Home</Link>    
                     </li>
                     <li className="optionsLabel">
-                        <Link className="linkOption" to='AboutUs'>Sobre nosotros</Link>
+                        <Link className="linkOption" to = 'AboutUs'>Sobre nosotros</Link>
                     </li>
                     <li className="optionsLabel">
-                        <Link className="linkOption" to='ShopNow'>Shop Now</Link>
+                        <Link className="linkOption" to = 'ShopNow'>Shop Now</Link>
                     </li>
                     <li className="optionsLabel">
-                        <Link className="linkOption" to='Contact'>Contactanos</Link>
+                        <Link className="linkOption" to = 'Contact'>Contactanos</Link>
                     </li>
                 </ul>
             </div>          
@@ -29,13 +29,13 @@ export function NavBar(){
             <div className="cointanerNetowrks">
                 <ul className="containerIcons">
                     <li className="iconNet">
-                        <Link className="linkIcon" to='Register'>Crear Cuenta</Link>
+                        <Link className="linkIcon" to = 'Register'>Crear Cuenta</Link>
                     </li>
                     <li className="iconNet">
-                        <Link className="linkIcon" to='Login'>Login</Link>
+                        <Link className="linkIcon" to = 'Login'>Login</Link>
                     </li>
                     <li className="iconNet">
-                        <Link className="linkIcon" ><Icon.Cart/></Link>
+                        <Link className="linkIcon" to = 'Cart'><Icon.Cart/></Link>
                     </li>
                 </ul>
             </div>            

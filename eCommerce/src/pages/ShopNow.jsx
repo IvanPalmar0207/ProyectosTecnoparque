@@ -29,7 +29,7 @@ export function ShopNow(){
                     <p className="itemPrice">$580.200</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>
                 </div>
                 <div className="containerItem">
@@ -39,7 +39,7 @@ export function ShopNow(){
                     <p className="itemPrice">$484.950</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>
                 </div>
                 <div className="containerItem">
@@ -49,7 +49,7 @@ export function ShopNow(){
                     <p className="itemPrice">$1.014.950</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>
                 </div>
                 <div className="containerItem">
@@ -59,7 +59,7 @@ export function ShopNow(){
                     <p className="itemPrice">$759.950</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>
                 </div>
             </div>
@@ -71,7 +71,7 @@ export function ShopNow(){
                     <p className="itemPrice">$1.334.000</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>
                 </div>
                 <div className="containerItem">
@@ -81,7 +81,7 @@ export function ShopNow(){
                     <p className="itemPrice">$809.950</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>
                 </div>
                 <div className="containerItem">
@@ -91,7 +91,7 @@ export function ShopNow(){
                     <p className="itemPrice">$20.000.000</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>
                 </div>
                 <div className="containerItem">
@@ -101,7 +101,7 @@ export function ShopNow(){
                     <p className="itemPrice">$1.699.000</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>
                 </div>
             </div>            
@@ -113,7 +113,7 @@ export function ShopNow(){
                     <p className="itemPrice">$649.950</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>
                 </div>
                 <div className="containerItem">
@@ -123,7 +123,7 @@ export function ShopNow(){
                     <p className="itemPrice">$569.900</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>
                 </div>
                 <div className="containerItem">
@@ -133,7 +133,7 @@ export function ShopNow(){
                     <p className="itemPrice">$867.000</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>
                 </div>
                 <div className="containerItem">
@@ -143,7 +143,7 @@ export function ShopNow(){
                     <p className="itemPrice">$4.000.000</p>
                     <br />
                     <div className='containerButton'>
-                        <Link className='cartButtonItem' to='Cart'>Agregar al Carrito</Link>
+                        <Link className='cartButtonItem' to='/Cart'>Agregar al Carrito</Link>
                     </div>                
                 </div>
             </div>            
